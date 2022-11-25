@@ -48,6 +48,7 @@
                 echo "<tr>";
                 echo "<td>" . $result['lrn'] . "</td>";
                 echo "<td>" . $result['lastname'] . ', ' . $result['firstname'] . "</td>";
+                echo "<td> <a href='update.php?lrn={$result['lrn']}'>Update</a> | <a href='delete.php?lrn={$result['lrn']}'>Delete </a> </td>";
                 echo "</tr>";
             }
         }
@@ -58,6 +59,7 @@
         <tr>
             <td>LRN</td>
             <td>Student Complete Name</td>
+            <td>Action</td>
         </tr>
         <?php displayAllStudents(); ?>
     </table>

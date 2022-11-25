@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 18, 2022 at 03:43 AM
+-- Generation Time: Nov 25, 2022 at 02:32 AM
 -- Server version: 10.1.30-MariaDB
 -- PHP Version: 7.2.1
 
@@ -39,14 +39,18 @@ CREATE TABLE `students` (
 --
 
 INSERT INTO `students` (`lrn`, `lastname`, `firstname`) VALUES
-(129830913, 'Ansing', 'Erlinda'),
+(98312039, 'Beningging', 'Princess Jessnasty'),
+(198795475, 'Quilab', 'Oneechan~~~ kyaa'),
 (290385049, 'Sombol', 'Desiree'),
+(5439825470, 'Catipay', 'Jay'),
+(8739283509, 'Heart', 'Heart'),
 (9259872394, 'Sumino', 'Chelsey'),
 (12378913767, 'Almeda', 'Jerick Carlo'),
-(19283019283, 'Tilawan', 'Chariss'),
+(23489091823, 'Back spring', 'Boy'),
 (98275923851, 'Paganpan', 'Jessa'),
 (234890890134, 'Lacuna', 'Heart'),
-(928475873897, 'Sumalinog', 'Matthew');
+(928475873897, 'Sumalinog', 'Matthew'),
+(987549837294, 'Yummy Boy', 'Hot and Spicy');
 
 --
 -- Indexes for dumped tables
